@@ -1,0 +1,63 @@
+.body {
+ margin: 0%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw ;
+    border: solid 2px black;
+}
+.cabecalho {
+    display: grid;
+    grid-column: 1/6;
+    background-color: aqua;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.jogo{
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw;
+    border: solid 2px black;
+    grid-column: 2/5;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.jogo > div{
+    display: grid;
+    border: 2px solid;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 30px;
+}
+
+.jogar{
+    display: grid;
+    grid-column: 3/4;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid;
+}
+
+.voce, .X{
+    display: grid;
+    grid-column: 2/3;
+    border:  2px solid;
+    align-items: center;
+    justify-content: center;
+}
+
+.pc, .O{
+    display: grid;
+    grid-column: 4/5;
+    border:  2px solid;
+    align-items: center;
+    justify-content: center;
+}
