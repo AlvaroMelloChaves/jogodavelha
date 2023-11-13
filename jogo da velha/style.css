@@ -1,0 +1,93 @@
+.body {
+ margin: 0%;
+ 
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 20vw 20vw 20vw 20vw 20vw ;
+    border: solid 2px black;
+}
+.titulo {
+    display: grid;
+    grid-column: 3/3;
+    background-color: rgb(255, 0, 0);
+    background: linear-gradient(4deg, rgba(241,155,34,1) 3%, rgba(241,155,34,1) 8%, rgba(230,188,42,1) 50%);
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin-bottom: 10px;
+    box-shadow: 2px 2px 2px rgba(230,188,42,1);
+    color: aliceblue;
+    border-radius: 0px 20px 0px 20px;
+    border: solid 3px;
+}
+.jogo{
+    display: grid;
+    grid-template-columns: 10vw 10vw 10vw;
+    border: solid 2px black;
+    grid-column: 2/5;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.jogo > div{
+    display: grid;
+    border: 2px solid;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 30px;
+}
+
+.jogar{
+    display: grid;
+    grid-column: 3/4;
+    align-items: center;
+    padding: 15px;
+    margin: 15px;
+    border: 2px solid;
+}
+
+.voce, .x {
+    grid-column: 2/3;
+    display: grid;
+    justify-content: center;
+    padding: 5px;
+    margin: 0 5px ;
+    border-right: 5px solid rgba(230,188,42,1);
+    border-left: 5px solid rgba(230,188,42,1);
+    font-size: 25px;
+}
+.comp, .o {
+    grid-column: 4/5;
+    display: grid;
+    justify-content: center;
+    padding: 5px;
+    margin: 0 5px;
+    border-left: 5px solid rgba(230,188,42,1);
+    border-right: 5px solid rgba(230,188,42,1);
+    font-size: 25px;
+}
+.CV {
+    grid-column: 2/5;
+    display: grid;
+    justify-content: center;
+    padding: 9px;
+    margin: 0 5px;
+    border-left: 5px solid rgba(230,188,42,1);
+    border-right: 5px solid rgba(230,188,42,1);
+    font-size: 25px;
+}
+button{
+    background: linear-gradient(4deg, rgba(241,155,34,1) 3%, rgba(241,155,34,1) 8%, rgba(230,188,42,1) 50%);
+    box-shadow: 2px 4px 2px rgba(230,188,42,1);
+    color: aliceblue;
+    transition: all;
+    border-radius: 0px 20px 0px 20px;
+    border: solid white 2px;
+    padding: 10px;
+}

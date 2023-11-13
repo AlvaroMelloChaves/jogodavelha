@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Velha</title>
+
+</head>
+<body>
+    <script src="java.js"></script>
+    <div class="grid">
+        <div class="titulo">
+            Jogo da Velha
+        </div>
+
+        <div class="jogo">       
+            <div class="linha_1" id="1" onclick="linha('1')">1</div>
+            <div class="linha_2" id="2" onclick="linha('2')">2</div>
+            <div class="linha_3" id="3" onclick="linha('3')">3</div>
+            <div class="linha_4" id="4" onclick="linha('4')">4</div>
+            <div class="linha_5" id="5" onclick="linha('5')">5</div>
+            <div class="linha_6" id="6" onclick="linha('6')">6</div>
+            <div class="linha_7" id="7" onclick="linha('7')">7</div>
+            <div class="linha_8" id="8" onclick="linha('8')">8</div>
+            <div class="linha_9" id="9" onclick="linha('9')">9</div>
+        </div>
+        
+        <div class="jogar"><button id="jogar" onclick="jogar()">JOGAR</button></div>
+    
+        <div class="voce">Jogador</div>
+        <div class="comp">Jogador</div>
+        <div class="x">X</div>
+        <div class="o">O</div>
+        <div class="CV">CONTADOR DE VITÓRIAS</div>
+        <div class="x" id="VX">#</div>
+        <div class="o" id="VO">#</div>
+    </div>
+</body>
+</html>
